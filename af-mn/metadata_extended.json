@@ -1,0 +1,25 @@
+{
+  "info": {
+    "about": { "me": null, "server": null, "company": null },
+    "social": {
+      "github_handle": "https://github.com/ClearContracts",
+      "twitch_handle": null,
+      "discord_handle": "https://discord.gg/uh9A5DHGV5",
+      "twitter_handle": "https://x.com/clarity_dao",
+      "youtube_handle": "https://www.youtube.com/@ClarityProtocol",
+      "facebook_handle": null,
+      "telegram_handle": null
+    },
+    "company": {
+      "addr": null,
+      "city": null,
+      "name": "Clear Contracts",
+      "vat_id": null,
+      "country": null,
+      "company_id": null
+    },
+    "location": null,
+    "url_png_logo": "https://clearcontracts.github.io/af-mn/logo.png",
+    "url_png_icon_64x64": "https://clearcontracts.github.io/af-mn/icon.png"
+  }
+}

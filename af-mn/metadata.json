@@ -1,0 +1,7 @@
+{
+  "name": "Clarity",
+  "description": "Clarity provides DAO tooling and decentralized governance for Cardano and hopefully Apex Fusion soon!",
+  "ticker": "CLRTY",
+  "homepage": "https://www.clarity.community/",
+  "extended": "https://clearcontracts.github.io/af-mn/metadata_extended.json"
+}
