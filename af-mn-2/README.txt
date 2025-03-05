@@ -1,0 +1,1 @@
+IMPORTANT: If you don't want to use Apex Fusion metadata hosting, these JSON files and images should be hosted on a webserver where they will be available from the internet. Also make sure to update URLs in supplied JSON files accordingly. Only url to metadata.json should be entered as the metadata URL when registering your stake pool on Apex Fusion.
