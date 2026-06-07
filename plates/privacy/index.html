@@ -1,153 +1,293 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Plates</title>
-  <!-- Remove this noindex once the policy is lawyer-reviewed and final. -->
-  <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="/plates/style.css">
-</head>
-<body>
-  <main class="wrap">
-    <p class="nav"><a href="/plates/">Home</a> · <a href="/plates/terms">Terms of Service</a></p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Plates</title>
+    <!-- Remove this noindex once the policy is lawyer-reviewed and final. -->
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="/plates/style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <p class="nav">
+        <a href="/plates/">Home</a> ·
+        <a href="/plates/terms">Terms of Service</a>
+      </p>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <strong>Effective date:</strong> 2026-06-05<br />
+        <strong>App:</strong> Plates (the &ldquo;App&rdquo;)<br />
+        <strong>Provider:</strong> Clear Contracts, Inc. (&ldquo;we&rdquo;,
+        &ldquo;us&rdquo;, &ldquo;our&rdquo;)<br />
+        <strong>Contact:</strong> logan@clearcontracts.io
+      </p>
 
-    <!-- DRAFT BANNER — delete this <aside> after legal review. -->
-    <aside class="draft">
-      <strong>DRAFT — not yet legally reviewed.</strong> This document is published
-      for testing only and is not the final privacy policy. Bracketed
-      <code>[PLACEHOLDER]</code> values must be resolved before launch.
-    </aside>
+      <p>
+        This Privacy Policy explains what personal data the Plates app collects,
+        why we collect it, who processes it on our behalf, and the choices you
+        have. We designed Plates to collect as little as possible:
+        <strong
+          >we do not track you across other apps or websites, we serve no
+          third-party advertising, and we do not sell your data.</strong
+        >
+      </p>
 
-    <h1>Privacy Policy</h1>
-    <p class="meta">
-      <strong>Effective date:</strong> [PUBLISH DATE]<br>
-      <strong>App:</strong> Plates (the &ldquo;App&rdquo;)<br>
-      <strong>Provider:</strong> Clear Contracts [LEGAL ENTITY NAME + FORM] (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;)<br>
-      <strong>Contact:</strong> [privacy@your-domain]
-    </p>
+      <h2>1. Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>What</th>
+            <th>Detail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cross-app/site tracking</td>
+            <td>
+              <strong>None.</strong> No IDFA, no App Tracking Transparency
+              prompt.
+            </td>
+          </tr>
+          <tr>
+            <td>Advertising</td>
+            <td><strong>None.</strong></td>
+          </tr>
+          <tr>
+            <td>Sale of personal data</td>
+            <td><strong>Never.</strong></td>
+          </tr>
+          <tr>
+            <td>Account required</td>
+            <td>Yes — sign-in is handled by Clerk (email + optional name).</td>
+          </tr>
+          <tr>
+            <td>Delete your data</td>
+            <td>
+              <strong>Self-serve, in-app</strong> — Settings → Account → Delete
+              Account erases everything.
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-    <p>This Privacy Policy explains what personal data the Plates app collects, why
-    we collect it, who processes it on our behalf, and the choices you have. We
-    designed Plates to collect as little as possible: <strong>we do not track you
-    across other apps or websites, we serve no third-party advertising, and we do
-    not sell your data.</strong></p>
+      <h2>2. Data we collect</h2>
+      <p>
+        We collect only what the App needs to function and to stay reliable.
+      </p>
 
-    <h2>1. Summary</h2>
-    <table>
-      <thead><tr><th>What</th><th>Detail</th></tr></thead>
-      <tbody>
-        <tr><td>Cross-app/site tracking</td><td><strong>None.</strong> No IDFA, no App Tracking Transparency prompt.</td></tr>
-        <tr><td>Advertising</td><td><strong>None.</strong></td></tr>
-        <tr><td>Sale of personal data</td><td><strong>Never.</strong></td></tr>
-        <tr><td>Account required</td><td>Yes — sign-in is handled by Clerk (email + optional name).</td></tr>
-        <tr><td>Delete your data</td><td><strong>Self-serve, in-app</strong> — Settings → Account → Delete Account erases everything.</td></tr>
-      </tbody>
-    </table>
+      <h3>Account &amp; identity (provided by you, via Clerk)</h3>
+      <ul>
+        <li>
+          <strong>Email address</strong> — to create and sign in to your
+          account.
+        </li>
+        <li>
+          <strong>Name</strong> — optional first / display name, if you provide
+          one.
+        </li>
+        <li>
+          <strong>User ID</strong> — a stable identifier for your account, used
+          to associate your workout data with you and to identify you in our
+          analytics and crash tooling.
+        </li>
+      </ul>
 
-    <h2>2. Data we collect</h2>
-    <p>We collect only what the App needs to function and to stay reliable.</p>
+      <h3>Your fitness content (created by you)</h3>
+      <ul>
+        <li>
+          Workouts, exercises, programs, plate/equipment settings, units,
+          rest-timer preferences, and similar data you enter while using the
+          App. This is stored on your device and synced to our backend so it is
+          available across your devices.
+        </li>
+      </ul>
 
-    <h3>Account &amp; identity (provided by you, via Clerk)</h3>
-    <ul>
-      <li><strong>Email address</strong> — to create and sign in to your account.</li>
-      <li><strong>Name</strong> — optional first / display name, if you provide one.</li>
-      <li><strong>User ID</strong> — a stable identifier for your account, used to associate your workout data with you and to identify you in our analytics and crash tooling.</li>
-    </ul>
+      <h3>Usage analytics (PostHog)</h3>
+      <ul>
+        <li>
+          <strong>Product-interaction events</strong> — explicit actions such as
+          &ldquo;workout logged&rdquo; or &ldquo;program activated,&rdquo; used
+          to understand how the App is used and improve it.
+        </li>
+        <li>
+          Autocapture and session replay are <strong>disabled</strong>; we do
+          not record your screen or capture every tap. Events may include
+          non-personal context (e.g. an exercise or program name) but never your
+          email or display name.
+        </li>
+      </ul>
 
-    <h3>Your fitness content (created by you)</h3>
-    <ul>
-      <li>Workouts, exercises, programs, plate/equipment settings, units, rest-timer preferences, and similar data you enter while using the App. This is stored on your device and synced to our backend so it is available across your devices.</li>
-    </ul>
+      <h3>Diagnostics (Sentry)</h3>
+      <ul>
+        <li>
+          <strong>Crash reports</strong> and
+          <strong>performance/diagnostic data</strong>, used to find and fix
+          bugs and keep the App stable. These are scrubbed of personal
+          information before transmission.
+        </li>
+      </ul>
 
-    <h3>Usage analytics (PostHog)</h3>
-    <ul>
-      <li><strong>Product-interaction events</strong> — explicit actions such as &ldquo;workout logged&rdquo; or &ldquo;program activated,&rdquo; used to understand how the App is used and improve it.</li>
-      <li>Autocapture and session replay are <strong>disabled</strong>; we do not record your screen or capture every tap. Events may include non-personal context (e.g. an exercise or program name) but never your email or display name.</li>
-    </ul>
+      <p>
+        We do <strong>not</strong> collect precise location, contacts, photos,
+        health-kit data, advertising identifiers, or financial information.
+      </p>
 
-    <h3>Diagnostics (Sentry)</h3>
-    <ul>
-      <li><strong>Crash reports</strong> and <strong>performance/diagnostic data</strong>, used to find and fix bugs and keep the App stable. These are scrubbed of personal information before transmission.</li>
-    </ul>
+      <h2>3. How we use your data</h2>
+      <ul>
+        <li>
+          <strong>Provide the App</strong> — authenticate you, store and sync
+          your fitness content.
+        </li>
+        <li>
+          <strong>Improve the App</strong> — understand feature usage through
+          aggregate analytics.
+        </li>
+        <li>
+          <strong>Keep it reliable</strong> — diagnose crashes and performance
+          problems.
+        </li>
+        <li>
+          <strong>Communicate with you</strong> — respond to support requests
+          you send us.
+        </li>
+      </ul>
+      <p>
+        We process this data to perform our contract with you (providing the
+        App) and on the basis of our legitimate interest in keeping the App
+        secure and functional.
+      </p>
 
-    <p>We do <strong>not</strong> collect precise location, contacts, photos,
-    health-kit data, advertising identifiers, or financial information.</p>
+      <h2>4. Service providers (sub-processors)</h2>
+      <p>
+        We use the following processors. Each handles data only on our
+        instructions and under its own security and privacy commitments:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>Role</th>
+            <th>Data it processes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Clerk</strong></td>
+            <td>Authentication &amp; identity</td>
+            <td>Email, name, user ID</td>
+          </tr>
+          <tr>
+            <td><strong>PostHog</strong></td>
+            <td>Product analytics</td>
+            <td>Product-interaction events, user ID</td>
+          </tr>
+          <tr>
+            <td><strong>Sentry</strong></td>
+            <td>Crash &amp; performance monitoring</td>
+            <td>Crash/diagnostic data, user ID</td>
+          </tr>
+          <tr>
+            <td><strong>Railway</strong></td>
+            <td>Application hosting</td>
+            <td>Your synced fitness content (in transit/at rest)</td>
+          </tr>
+          <tr>
+            <td><strong>Neon</strong></td>
+            <td>Managed PostgreSQL database</td>
+            <td>Your synced fitness content</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <h2>3. How we use your data</h2>
-    <ul>
-      <li><strong>Provide the App</strong> — authenticate you, store and sync your fitness content.</li>
-      <li><strong>Improve the App</strong> — understand feature usage through aggregate analytics.</li>
-      <li><strong>Keep it reliable</strong> — diagnose crashes and performance problems.</li>
-      <li><strong>Communicate with you</strong> — respond to support requests you send us.</li>
-    </ul>
-    <p>We process this data to perform our contract with you (providing the App)
-    and on the basis of our legitimate interest in keeping the App secure and
-    functional.</p>
+      <h2>5. Where your data is stored</h2>
+      <p>
+        Your account and fitness content are stored in a managed PostgreSQL
+        database (Neon) accessed by our backend hosted on Railway. Data may be
+        processed in the United States and/or other regions where our providers
+        operate.
+      </p>
 
-    <h2>4. Service providers (sub-processors)</h2>
-    <p>We use the following processors. Each handles data only on our instructions
-    and under its own security and privacy commitments:</p>
-    <table>
-      <thead><tr><th>Provider</th><th>Role</th><th>Data it processes</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Clerk</strong></td><td>Authentication &amp; identity</td><td>Email, name, user ID</td></tr>
-        <tr><td><strong>PostHog</strong></td><td>Product analytics</td><td>Product-interaction events, user ID</td></tr>
-        <tr><td><strong>Sentry</strong></td><td>Crash &amp; performance monitoring</td><td>Crash/diagnostic data, user ID</td></tr>
-        <tr><td><strong>Railway</strong></td><td>Application hosting</td><td>Your synced fitness content (in transit/at rest)</td></tr>
-        <tr><td><strong>Neon</strong></td><td>Managed PostgreSQL database</td><td>Your synced fitness content</td></tr>
-      </tbody>
-    </table>
-    <p>[Confirm each provider&rsquo;s current privacy/DPA links and add them here.]</p>
+      <h2>6. Data retention</h2>
+      <ul>
+        <li>
+          <strong>Account &amp; fitness content</strong> — kept while your
+          account exists.
+        </li>
+        <li>
+          <strong>Analytics &amp; diagnostics</strong> — retained per our
+          providers&rsquo; default retention windows.
+        </li>
+        <li>
+          When you delete your account (see below), we erase your account and
+          fitness content as described.
+        </li>
+      </ul>
 
-    <h2>5. Where your data is stored</h2>
-    <p>Your account and fitness content are stored in a managed PostgreSQL database
-    (Neon) accessed by our backend hosted on Railway. Data may be processed in the
-    United States and/or other regions where our providers operate. [Confirm regions.]</p>
+      <h2>7. Your rights and choices</h2>
+      <ul>
+        <li>
+          <strong>Delete your account and data</strong> — In the App, go to
+          <strong>Settings → Account → Delete Account</strong>. On confirmation,
+          we hard-delete all of your rows from our database and delete your
+          authentication record at Clerk. This is irreversible.
+        </li>
+        <li>
+          <strong>Access, correction, or a copy of your data</strong> — email us
+          at logan@clearcontracts.io and we will respond as required by
+          applicable law.
+        </li>
+        <li>
+          <strong>Marketing</strong> — we do not send marketing email; the only
+          messages you receive are transactional or in response to your
+          requests.
+        </li>
+      </ul>
+      <p>
+        Depending on where you live (e.g. the EEA/UK under GDPR, or California
+        under the CCPA/CPRA), you may have additional rights, including the
+        right to lodge a complaint with your data-protection authority. We do
+        not sell or &ldquo;share&rdquo; personal information as those terms are
+        defined under California law.
+      </p>
 
-    <h2>6. Data retention</h2>
-    <ul>
-      <li><strong>Account &amp; fitness content</strong> — kept while your account exists.</li>
-      <li><strong>Analytics &amp; diagnostics</strong> — retained per our providers&rsquo; default retention windows. [Confirm and state the windows.]</li>
-      <li>When you delete your account (see below), we erase your account and fitness content as described.</li>
-    </ul>
+      <h2>8. Children&rsquo;s privacy</h2>
+      <p>
+        Plates is not directed to children under 13 (or the minimum age in your
+        jurisdiction), and we do not knowingly collect personal data from them.
+        If you believe a child has provided us data, contact us and we will
+        delete it.
+      </p>
 
-    <h2>7. Your rights and choices</h2>
-    <ul>
-      <li><strong>Delete your account and data</strong> — In the App, go to <strong>Settings → Account → Delete Account</strong>. On confirmation, we hard-delete all of your rows from our database and delete your authentication record at Clerk. This is irreversible.</li>
-      <li><strong>Access, correction, or a copy of your data</strong> — email us at [privacy@your-domain] and we will respond as required by applicable law.</li>
-      <li><strong>Marketing</strong> — we do not send marketing email; the only messages you receive are transactional or in response to your requests.</li>
-    </ul>
-    <p>Depending on where you live (e.g. the EEA/UK under GDPR, or California under
-    the CCPA/CPRA), you may have additional rights, including the right to lodge a
-    complaint with your data-protection authority. We do not sell or &ldquo;share&rdquo;
-    personal information as those terms are defined under California law.</p>
+      <h2>9. Security</h2>
+      <p>
+        We use industry-standard measures — encrypted transport (HTTPS),
+        authenticated APIs, and reputable infrastructure providers — to protect
+        your data. No method of transmission or storage is perfectly secure, but
+        we work to protect your information and respond to incidents.
+      </p>
 
-    <h2>8. Children&rsquo;s privacy</h2>
-    <p>Plates is not directed to children under 13 (or the minimum age in your
-    jurisdiction), and we do not knowingly collect personal data from them. If you
-    believe a child has provided us data, contact us and we will delete it.</p>
+      <h2>10. Changes to this policy</h2>
+      <p>
+        We may update this policy from time to time. We will post the updated
+        version at
+        <a href="https://clearcontracts.github.io/plates/privacy/"
+          >https://clearcontracts.github.io/plates/privacy/</a
+        >
+        and revise the &ldquo;Effective date&rdquo; above. Material changes will
+        be communicated as required by law.
+      </p>
 
-    <h2>9. Security</h2>
-    <p>We use industry-standard measures — encrypted transport (HTTPS),
-    authenticated APIs, and reputable infrastructure providers — to protect your
-    data. No method of transmission or storage is perfectly secure, but we work to
-    protect your information and respond to incidents.</p>
+      <h2>11. Contact</h2>
+      <p>
+        Questions or requests about this policy or your data:
+        <strong>logan@clearcontracts.io</strong> — Clear Contracts, Inc.
+      </p>
 
-    <h2>10. Changes to this policy</h2>
-    <p>We may update this policy from time to time. We will post the updated version
-    at <a href="https://clearcontracts.github.io/plates/privacy">https://clearcontracts.github.io/plates/privacy</a>
-    and revise the &ldquo;Effective date&rdquo; above. Material changes will be
-    communicated as required by law.</p>
-
-    <h2>11. Contact</h2>
-    <p>Questions or requests about this policy or your data:
-    <strong>[privacy@your-domain]</strong> — Clear Contracts [LEGAL ENTITY NAME].</p>
-
-    <footer>
-      <a href="/plates/privacy">Privacy Policy</a>
-      <a href="/plates/terms">Terms of Service</a>
-    </footer>
-  </main>
-</body>
+      <footer>
+        <a href="/plates/privacy">Privacy Policy</a>
+        <a href="/plates/terms">Terms of Service</a>
+      </footer>
+    </main>
+  </body>
 </html>
