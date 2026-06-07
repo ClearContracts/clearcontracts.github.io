@@ -1,0 +1,88 @@
+:root {
+  --fg: #18181b;
+  --muted: #6b7280;
+  --border: #e4e4e7;
+  --bg: #ffffff;
+  --link: #0a58ca;
+  --th-bg: #fafafa;
+  --code-bg: #f4f4f5;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+h2 { font-size: 1.25rem; margin: 2.25rem 0 .75rem; }
+h3 { font-size: 1.05rem; margin: 1.5rem 0 .5rem; }
+
+p, li { margin: .6rem 0; }
+
+a { color: var(--link); }
+
+.meta { color: var(--muted); font-size: .95rem; margin: 0 0 2rem; }
+.meta strong { color: var(--fg); }
+.meta br { line-height: 2; }
+
+.nav { font-size: .9rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: .94rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: .5rem .65rem;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--th-bg); }
+
+code {
+  background: var(--code-bg);
+  padding: .1rem .35rem;
+  border-radius: 4px;
+  font-size: .9em;
+}
+
+/* Remove the DRAFT banner block below (and its markup in each page) after legal review. */
+.draft {
+  background: #fff8e1;
+  border: 1px solid #f0c000;
+  border-radius: 8px;
+  padding: .85rem 1rem;
+  margin: 0 0 2rem;
+  font-size: .92rem;
+}
+.draft strong { color: #8a6d00; }
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .9rem;
+}
+footer a { margin-right: 1rem; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+  .wrap { padding: 1.75rem 1rem 3rem; }
+}
